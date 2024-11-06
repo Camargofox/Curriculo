@@ -1,3 +1,9 @@
-#nameAndObjetivo {
-    
+
+
+#nameAndObjetivo h1, h2 {
+   margin: 0; 
+}
+
+h1, h2, h3 {
+    text-transform: uppercase,
 }

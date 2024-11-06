@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ffb3231605.js" crossorigin="anonymous"></script>
     <title>Curriculo</title>
     <style>
         #header{
@@ -14,18 +15,30 @@
             color: black;
             margin: 50px 0 50px 0;
             font-family: "Hubballi", sans-serif;
-}
+        }
 
         #nameAndObjective{
             background-color: white;
             width: 500px;
             margin: 0 auto;
             text-align: center;
-}
+        }
 
-#conta{
+        #nameAndObjetivo h1, h2 {
+            margin: 0; 
+        }
 
-}
+        h1, h2, h3 {
+            text-transform: uppercase,
+        }
+
+        .contact {
+            list-style-type: none;
+            color: ;
+        }
+        #links{
+            
+        }
 
     </style>
 </head>
@@ -37,16 +50,35 @@
         </div>
     </div>
     <div id="container">
-        <dir id="sidebar">
+        <div id="sidebar">
             <div class="card">
                 <h3>Contato</h3>
-                <ul>
-                    <li>exemplo@email.com.br</li>
-                    <li>(11) 945654055</li>
-                    <li>Diadema, SP </li>
+                <ul class="contact">
+                    <li><i class="fa-regular fa-envelope"></i>exemplo@email.com.br</li>
+                    <li><i class="fa-solid fa-phone"></i>(11) 945654055</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Diadema, SP </li>
                 </ul>
             </div>
-        </dir>
+            <div class="card">
+                <h3>Skills</h3>
+                <ul class="contact">
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>        
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Formaçção Acadêmica</h3>
+                <ul class="contact">
+                    <li>Analista de Sistemas</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Links</h3>
+                <ul class="contact">
+                    <li><a href="https://github.com/Camargofox"><i class="fa-brands fa-github"></i>Camargofox</a></li>
+                    <li><a href="https://www.linkedin.com/in/saulo-camargo/"><i class="fa-brands fa-linkedin-in"></i>Camargofox</a></li>
+                </ul>
         <div id="content"></div>
     </div>
 
